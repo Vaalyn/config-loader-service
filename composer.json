@@ -1,6 +1,8 @@
 {
     "name": "vaalyn/config-loader-service",
     "description": "A config loader service for the Slim Framework 3",
+	"keywords": ["config", "configuration", "slim", "loader"],
+	"homepage": "https://github.com/Vaalyn/config-loader-service",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
@@ -10,6 +12,7 @@
         }
     ],
     "require": {
+		"php": ">=7.2.0",
         "psr/container": "^1.0"
     },
 	"autoload": {
